@@ -1,0 +1,93 @@
+h1{
+  font-style: Aerial;
+  align: center;
+  margin-top: 30px;
+}
+.box{
+
+  background-color: #ffffff;
+  width: 400px;
+  border-radius: 20px;
+  height: 400px;
+  margin: 2px;
+  border: 1px solid;
+  margin-left: 480px;
+   align-items: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+body{
+  background-color: #EDF4F5;
+}
+.body1{
+  background-color: #EDF4F5;
+}
+a:hover{
+  color: red;
+}
+#btn{
+  align-items: center;
+  width: 70px;
+  height: 30px;
+  background-color: #3498db;
+  border:1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+#btn1{
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: left;
+  width: 70px;
+  height: 30px;
+  background-color: #3498db;
+  border:1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+
+.box1{
+  margin-top: 20px;
+}
+
+body .dd{
+
+  background-color: lightgreen;
+padding-top: 20px;
+margin-top: -30px;
+margin-left: -8px;
+margin-right: -8px;
+
+}
+.box2{
+  width: 500px;
+  height: 550px;
+  margin: 2px;
+  border: 1px solid;
+  margin-left: 450px;
+   align-items: center;
+     background-color: #ffffff;
+   border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+  width: 200px;
+  height: 20px;
+}
+.box2 .role1 select{
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+}
+.box1 select{
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+}
+a{
+  text-decoration: none;
+}

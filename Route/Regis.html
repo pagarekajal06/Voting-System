@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Voting System</title>
+  </head>
+  <body>
+    <div class="dd">
+      <h1 align="center">Online Voting System</h1>
+      <hr></hr>
+    </div>
+    <br>
+    <div class="box2" align="center">
+        <h2>Registration</h2>
+        <br>
+        <form action="../api/register.php" method="post" enctype="multipart/form-data">
+          <label for="">Full Name :</label>
+          <input type="text" name="name" value="">
+          <br><br>
+          <label for="">Mobile Number :</label>
+          <input type="text" name="mobile" value="">
+        <br><br>
+        <label for="">Email-Id  :</label>
+        <input type="text" name="Email-ID" value="" placeholder="abc@gmail.com">
+        <br><br>
+        <label for="">Password :</label>
+        <input type="text" name="Password" value="" placeholder="Enter only 6 digit Password">
+<br><br>
+        <label for="">Confirm Password :</label>
+        <input type="text" name="cPassword" value="">
+        <br><br>
+        <label for="" >Gender: </label>
+      <select class="" name="gender">
+        <option value="">--Select Gender--</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+
+      </select>
+
+        <br><br><br>
+        <label for="">Upload Image : </label>
+        <input type="file" name="photo" value=""><br><br>
+        <div class="role1">
+          <br>
+          <label for="" >Select Your Role : </label>
+          <select class="" name="role">
+             <option value="Voter">Voter</option>
+             <option value="Group">Group</option>
+          </select>
+        </div><br>
+      <button type="submit" id="btn" name="button" ><b>Submit</b></button>
+      <br>
+      <p><b>Already user? <a href="index.html">Login here</a></p>
+        </form>
+    </div>
+
+  </body>
+
+</html>
